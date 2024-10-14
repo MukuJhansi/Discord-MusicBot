@@ -33,20 +33,20 @@ module.exports = {
 			retryDelay: 40, //- Delay between reconnect attempts if connection is lost.
 			secure: false, //- Can be either true or false. Only use true if ssl is enabled!
 		},
-		{	Host : lavalink.jompo.cloud
-			Port : 2333
-			Password : "jompo"
+		{	host : "lavalink.jompo.cloud",
+			port : 2333,
+			password : "jompo",
 			retryAmount: 200, //- The amount of times to retry connecting to the node if connection got dropped.
 			retryDelay: 40, //- Delay between reconnect attempts if connection is lost.
-			Secure : false
+			secure : false,
 		},
 		{
-			Host : lavalink.jirayu.net
-			Port : 13592
-			Password : "youshallnotpass"
+			host : "lavalink.jirayu.net",
+			port : 13592,
+			password : "youshallnotpass",
 			retryAmount: 200, //- The amount of times to retry connecting to the node if connection got dropped.
 			retryDelay: 40, //- Delay between reconnect attempts if connection is lost.
-			Secure : false    
+			secure : false,    
 		},
 	],
 	embedColor: "#2f3136", //- Color of the embeds, hex supported
